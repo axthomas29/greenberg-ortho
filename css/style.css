@@ -1,0 +1,33 @@
+/* Base Styles */
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Sections */
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+}
