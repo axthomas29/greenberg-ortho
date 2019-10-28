@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -30,4 +31,15 @@ img {
 
 .half-width {
     width: 50%;
+}
+
+/* Header/Hero Top */
+
+#header {
+    margin: 0 auto;
+    background: url(../img/blonde-invisalign.jpeg);
+    height: 767px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 254, 253, 0.7);
 }
