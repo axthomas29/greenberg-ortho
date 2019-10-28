@@ -58,6 +58,10 @@ a {
     width: 50%;
 }
 
+.inner {
+    height: calc(100% + 0px);
+}
+
 /* Header/Hero Top */
 
 #header {
@@ -104,3 +108,19 @@ a {
 }
 
 /* Dr Img and Info Section */
+
+#info {
+    height: 560px;
+    position: relative;
+}
+
+#info img {
+    width: 250px;
+    height: 375px;
+    display: inline-block;
+}
+
+#info p {
+    text-align: left;
+    display: inline-block;
+}
