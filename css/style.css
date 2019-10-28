@@ -16,17 +16,24 @@ body {
     background-color: #ffffff;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 img {
     max-width: 100%;
 }
 
+h1 {
+    font-size: 3em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
 /* Sections */
 
 .full-width {
     width: 100%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .half-width {
@@ -36,10 +43,26 @@ img {
 /* Header/Hero Top */
 
 #header {
-    margin: 0 auto;
+    display: inline-block;
+    margin-top: 0px;
     background: url(../img/blonde-invisalign.jpeg);
     height: 767px;
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(255, 254, 253, 0.7);
+}
+
+.contents {
+    margin-top: 2em;
+}
+
+.contents .logo {
+    width: 175px;
+    height: 170px;
+}
+
+.contents h1 span {
+    font-size: 12px;
+    vertical-align: super;
+    margin-right: 10px;
 }
