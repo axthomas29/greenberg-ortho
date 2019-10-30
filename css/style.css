@@ -64,7 +64,7 @@ a {
 /* Header/Hero Top */
 
 #header {
-  height: 767px;
+  height: 85%;
   text-align: center;
   margin-top: 0px;
   background: url(../img/blonde-invisalign.jpeg);
@@ -94,8 +94,8 @@ a {
   width: 316px;
   height: 83px;
   position: relative;
-  top: 80px;
-  right: 350px;
+  top: 65px;
+  right: 325px;
 }
 
 /* Dr Img and Info Section */
@@ -278,3 +278,5 @@ h4 {
   margin-bottom: 5em;
   color: #555555;
 }
+
+/* Media Queries */
