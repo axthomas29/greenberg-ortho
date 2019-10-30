@@ -227,10 +227,27 @@ a {
 }
 
 /* About Section */
+#about {
+  height: auto;
+  position: relative;
+  background-color: #f7f7f7;
+  display: inline-block;
+}
+
 .about-dr {
-  width: 50%;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 3em;
   text-align: center;
-  font-size: 16px;
-  color: rgb(55, 70, 90);
+  font-size: 15px;
   line-height: 32px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 3em;
+  margin-bottom: 4em;
 }
