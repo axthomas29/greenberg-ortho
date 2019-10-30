@@ -13,8 +13,8 @@ html {
 html,
 body {
   height: 100%;
+  padding: 0;
   margin: 0;
-  display: inline-block;
 }
 
 body {
@@ -48,19 +48,13 @@ a {
   text-decoration: none;
 }
 
-/* Sections */
-
-.inner {
-  width: 80%;
-}
-
 /* Header/Hero Top */
 
 #header {
-  height: 85%;
+  min-height: 85vh;
   text-align: center;
   margin-top: 0px;
-  background: url(../img/blonde-invisalign.jpeg);
+  background-image: url(../img/blonde-invisalign.jpeg);
   background-position: 70% 58%;
   background-size: cover;
   background-attachment: fixed;
@@ -166,7 +160,6 @@ a {
 .award {
   width: 200px;
   height: 200px;
-  position: relative;
   position: absolute;
   left: 165px;
   top: 98px;
@@ -280,4 +273,9 @@ h4 {
   margin-top: 8em;
   margin-bottom: 5em;
   color: #555555;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 620px) {
 }
