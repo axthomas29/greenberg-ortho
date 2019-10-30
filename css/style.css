@@ -50,13 +50,6 @@ a {
 
 /* Sections */
 
-.full-width {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .inner {
   width: 80%;
 }
@@ -74,28 +67,34 @@ a {
   box-shadow: inset 0 0 0 2000px rgba(255, 254, 253, 0.7);
 }
 
-.contents .logo {
-  width: 175px;
-  height: 170px;
+.contents {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.contents .trademark {
-  font-size: 12px;
+.logo {
+  width: 175px;
+  height: 170px;
+  margin-top: 4em;
+}
+
+.trademark {
+  font-size: 1rem;
   vertical-align: super;
   margin-right: 10px;
 }
 
-.contents .line-break {
+.line-break {
   display: block;
   clear: both;
 }
 
-.contents .invs-logo {
+.invs-logo {
   width: 316px;
   height: 83px;
   position: relative;
-  top: 65px;
-  right: 325px;
+  top: 75px;
+  right: 315px;
 }
 
 /* Dr Img and Info Section */
@@ -257,7 +256,11 @@ a {
   height: auto;
   position: relative;
   text-align: center;
-  display: inline-block;
+}
+
+.footer-contents {
+  width: 80%;
+  margin: 0 auto;
 }
 
 #footer h1 {
@@ -278,5 +281,3 @@ h4 {
   margin-bottom: 5em;
   color: #555555;
 }
-
-/* Media Queries */
