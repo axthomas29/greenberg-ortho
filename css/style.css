@@ -62,8 +62,9 @@ a {
 }
 
 .contents {
-  width: 80%;
+  max-width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 .logo {
@@ -86,9 +87,9 @@ a {
 .invs-logo {
   width: 316px;
   height: 83px;
-  position: relative;
-  top: 75px;
-  right: 315px;
+  position: absolute;
+  bottom: -250px;
+  left: 480px;
 }
 
 /* Dr Img and Info Section */
@@ -113,10 +114,6 @@ a {
 #info img {
   width: 250px;
   height: 375px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
 #info p {
@@ -220,6 +217,7 @@ a {
 
 /* About Section */
 #about {
+  width: 100%;
   height: auto;
   position: relative;
   background-color: #f7f7f7;
@@ -227,7 +225,7 @@ a {
 }
 
 .about-dr {
-  width: 35%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 4em;
   margin-bottom: 3em;
@@ -277,5 +275,4 @@ h4 {
 
 /* Media Queries */
 
-@media screen and (max-width: 620px) {
-}
+@media screen and (max-width: 620px) {}
